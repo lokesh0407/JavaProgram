@@ -3,6 +3,7 @@ package org.program;
 public class SumOfDigit {
 	public static void main(String[] args) {
 		int num=1234;
+		int n= num;
 		int res = 0;
 		int rem = 0;
 		while (num>0) {
@@ -11,6 +12,7 @@ public class SumOfDigit {
 			num= num/10;
 					
 		}
+		System.out.println(n);
 		System.out.println(res);
 	}
 }
